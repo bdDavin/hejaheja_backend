@@ -1,0 +1,15 @@
+{
+  "name": "hejaheja",
+  "version": "2.0.0",
+  "description": "hejaheja backend: a scraper and parser for hejaheja app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BenDev",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "chrome-aws-lambda": "^2.1.1",
+    "puppeteer-core": "^2.1.1"
+  }
+}
