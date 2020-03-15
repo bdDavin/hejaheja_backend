@@ -43,7 +43,7 @@ async function parseHTML(html) {
                     if (opponent === '') { return }
                     matches.push({
                         opponent: opponent,
-                        date: getDateFromString(date+'T'+time),
+                        dateString: getDateFromString(date+'T'+time),
                         channels: channels,
                         sportType: parsingSportType(sportType),
                         league: league
