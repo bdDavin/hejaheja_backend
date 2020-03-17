@@ -68,8 +68,6 @@ function parsingChannel(channelName) {
             return 'eurosport2'
         case 'Eurosport Player':
             return 'eurosportPlayer'
-        case 'Inställd':
-            return 'cancelled'
         case 'Kanal 5':
             return 'kanal5'
         case 'Kanal 9':
@@ -109,7 +107,6 @@ function parsingChannel(channelName) {
         case 'Viafree':
             return 'viafree'
         case 'Viaplay Fighting':
-            return 'viaplayFighting'
         case 'Viaplay.se':
             return 'viaplay'
         case 'Viasat 16':
