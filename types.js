@@ -1,5 +1,5 @@
 function getDateFromString(dateString) {
-    let date = new Date(dateString)
+    let date = new Date(dateString+':00.000+01:00')
     return date
 }
 
